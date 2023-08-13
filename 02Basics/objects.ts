@@ -19,14 +19,15 @@ function createCourse ():{name:string,price:number}{
 type User = {
     name : string ,
     email: string,
-    isActive : boolean
+    isActive : boolean,
+    isVerified:boolean,
 }
 
 function createNewUser(user:User):User{
-    return {name:'',email:'',isActive:false}
+    return {name:'',email:'',isActive:false , isVerified:true}
 }
 
-createNewUser({name:'',email:'',isActive:true})
+createNewUser({name:'',email:'',isActive:true, isVerified:true})
 
 
 export {}
