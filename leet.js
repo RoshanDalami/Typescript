@@ -19,4 +19,7 @@ const chai = () => {
   console.log(this);
 };
 
+const test = () => {
+  console.log("testing github");
+};
 chai();
