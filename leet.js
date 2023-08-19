@@ -22,4 +22,7 @@ const chai = () => {
 const test = () => {
   console.log("testing github");
 };
+const testTwo = () => {
+  console.log("testing github two");
+};
 chai();
