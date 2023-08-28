@@ -27,3 +27,7 @@ if(typeof id === 'string'){
 //array 
 const data:number[] = [1,2,3,4] 
 const data1:(number|string)[] = [1,2,3,'4']
+
+let seatAllotment : 'aisle' | 'middle' |'window' 
+seatAllotment = 'window'
+seatAllotment = "aisle"
